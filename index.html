@@ -39,7 +39,7 @@
             <div class="text">
                 <h1>Você que é advogado e não  tem um processo para fechar contratos de forma recorrente, e usufruir de uma advocacia digital, rentável e lucrativa! Quer saber como?</h1>
                 <p>Descubra o segredo para prosperar como advogado usando as ferramentas modernas e a inteligência da internet.</p>
-                <a href="#">QUERO PROSPERAR NA INTERNET</a>
+                <a href="#contato">QUERO PROSPERAR NA INTERNET</a>
             </div>
             <img src="home.png" alt="imagem marketing digital">
         </div>
@@ -79,7 +79,7 @@
             <p>Todas as fases anteriores à contratação do seu escritório devem ser feitas por um time 
             profissional, capacitado e experimentado. A Tons Digitais oferece pacotes atrativos e com
             foco em resultado para destacar seu escritório entre toda a concorrência</p>
-            <a href="#">QUERO ME DESTACAR DA CONCORRÊNCIA</a>
+            <a href="#contato">QUERO ME DESTACAR DA CONCORRÊNCIA</a>
         </div>
     </section>
 
@@ -105,7 +105,7 @@
             <h1>QUEM SOMOS</h1>
             <p>A Tons Digitais é uma agência de Marketing Digital especializada na Gestão públicitaria de escritórios advocaticios. Somos
             especialistas em estratégias digitais focadas para o resultado, em diversos segmentos, em outros continentes. </p>
-            <a href="#">QUERO PROSPERAR O NEGÓCIO</a>
+            <a href="#contato">QUERO PROSPERAR O NEGÓCIO</a>
             <div class="profiles">
                 <div class="profile">
                     <img src="guilherme.jpeg" alt="">
@@ -162,7 +162,6 @@
                         <li>3º Mês: R$ 3500</li>          
                     </ul>
                 </div>
-                <a href="#">Assinar Plano baby</a>
             </div>
         </div>
     </section>
@@ -202,7 +201,6 @@
                         <li>3º Mês: R$ 3500</li>          
                     </ul>
                 </div>
-                <a href="#">Assinar PLANO TRIUNFO</a>
             </div>
         </div>
     </section>
@@ -265,7 +263,6 @@
                         <li>3º Mês: R$ 4000</li>          
                     </ul>
                 </div>
-                <a href="#">Assinar PLANO OURO</a>
             </div>
         </div>
     </section>
@@ -300,7 +297,7 @@
                                 <i class="fa-solid fa-circle-info"></i>
                                 <small>Error message</small>
                             </div>
-                            <input type="submit" value="Enviar Formulário" id="validar_cadastro"/>
+                            <input type="submit" value="Enviar Formulário"/>
                         </form>
                         
                     </div>    
@@ -376,18 +373,6 @@ function CadastroFinalizado(){
     Finalizado.classList.toggle('finalizado');
 }
 
-    </script>
-
-    <script>
-               
-        document.querySelector('#validar_cadastro').addEventListener('click',function(){
-            let cliente = document.querySelector('#nome').value;
-            let email = document.querySelector('#email').value;
-            let telefone = document.querySelector('#telefone').value;
- 
-            let url = "https://api.whatsapp.com/send?phone=5561993331305&text=Bem vindo ao Tons digitais -->> %0A Qual é o seu nome? %0A " + cliente + "%0A Qual o seu e-mail %0A "+ email +" %0A Qual é o seu telefone ? %0A "+ telefone; 
-            window.open(url);
-        });
     </script>
 
 
